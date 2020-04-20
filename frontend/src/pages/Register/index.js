@@ -34,7 +34,7 @@ export default function Register() {
         
         history.push('/');
     } catch (err) {
-        alert('Erro no cadastro, tente novamente.');
+        alert(`Erro ao cadastrar, tente novamente.`);
     }  
   }
 
