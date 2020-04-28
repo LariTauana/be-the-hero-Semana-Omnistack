@@ -23,9 +23,9 @@ export default function Logon() {
         localStorage.setItem('ongName', response.data.name);
         
         history.push('/profile');
-       } catch (err) {
+        } catch (err) {
            alert('Falha no login, tente novamente.')
-       }
+        }
     }
 
     return (
@@ -50,7 +50,6 @@ export default function Logon() {
                         </Link>                       
                     </form>                
                 </section>
-
                 <img src={ heroesImg} alt="Heroes" />
             </div>
         </div>
